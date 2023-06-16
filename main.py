@@ -15,6 +15,7 @@ df['sample.date'] = pd.to_datetime(df['sample.date'])
 
 # Define the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Create dropdown options for sample.loc
 locations = df['sample.loc'].unique()
