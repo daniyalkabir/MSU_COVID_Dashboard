@@ -1,0 +1,6 @@
+dash==2.6.0
+pandas
+plotly.express
+dash_core_components
+dash_html_components
+dash.dependencies
